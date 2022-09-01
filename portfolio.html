@@ -5,6 +5,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="./css/slyles.css" />
   </head>
   <body>
@@ -26,22 +30,25 @@
 
     <main>
       <!--Фільтр розділу портфоліо-->
-      <h1>Контент сторінки портфоліо</h1>
-      <ul class="project-list">
-        <li><button type="button" class="button secondary current">Усі</button></li>
-        <li><button type="button" class="button secondary">Веб-сайти</button></li>
-        <li><button type="button" class="button secondary">Додатки</button></li>
-        <li><button type="button" class="button secondary">Дизайн</button></li>
-        <li><button type="button" class="button secondary">Маркетинг</button></li>
-      </ul>
-
-      <section class="section">
+      <section>
+        Portfolio
+        <h1>Контент сторінки портфоліо</h1>
+        <ul class="project-list">
+          <li><button type="button" class="button primary current">Усі</button></li>
+          <li><button type="button" class="button secondary">Веб-сайти</button></li>
+          <li><button type="button" class="button secondary">Додатки</button></li>
+          <li><button type="button" class="button secondary">Дизайн</button></li>
+          <li><button type="button" class="button secondary">Маркетинг</button></li>
+        </ul>
+      </section>
+      <!--Проєкти-->
+      <section class="project-link">
         <ul>
           <li>
             <a href="">
               <img src="./images/project-1.jpg" alt="Зображення проєкту веб-сайту" width="370" />
-              <h2 class="section-title">Технокряк</h2>
-              <p>Веб-сайт</p>
+              <h2 class="project-title">Технокряк</h2>
+              <p class="filter">Веб-сайт</p>
             </a>
           </li>
           <li>
@@ -51,8 +58,8 @@
                 alt="Зображення проєкту дизайну постера"
                 width="370"
               />
-              <h2 class="section-title">Постер New Orlean vs Golden Star</h2>
-              <p>Дизайн</p>
+              <h2 class="project-title">Постер New Orlean vs Golden Star</h2>
+              <p class="filter">Дизайн</p>
             </a>
           </li>
           <li>
@@ -62,50 +69,50 @@
                 alt="Зображення проєкту додатка ресторана"
                 width="370"
               />
-              <h2 class="section-title">Ресторан Seafood</h2>
-              <p>Додаток</p>
+              <h2 class="project-title">Ресторан Seafood</h2>
+              <p class="filter">Додаток</p>
             </a>
           </li>
           <li>
             <a href="">
               <img src="./images/project-4.jpg" alt="Зображення проєкту маркетингу " width="370" />
-              <h2 class="section-title">Проєкт Prime</h2>
-              <p>Маркетинг</p>
+              <h2 class="project-title">Проєкт Prime</h2>
+              <p class="filter">Маркетинг</p>
             </a>
           </li>
           <li>
             <a href="">
               <img src="./images/project-5.jpg" alt="Зображення проєкту додатка" width="370" />
-              <h2 class="section-title">Проєкт Boxes</h2>
-              <p>Додаток</p>
+              <h2 class="project-title">Проєкт Boxes</h2>
+              <p class="filter">Додаток</p>
             </a>
           </li>
           <li>
             <a href="">
               <img src="./images/project-6.jpg" alt="Зображення проєкту веб-сайту" width="370" />
-              <h2 class="section-title">Inspiration has no Borders</h2>
-              <p>Веб-сайт</p>
+              <h2 class="project-title">Inspiration has no Borders</h2>
+              <p class="filter">Веб-сайт</p>
             </a>
           </li>
           <li>
             <a href="">
               <img src="./images/project-7.jpg" alt="Зображення проєкту видання" width="370" />
-              <h2 class="section-title">Видання Limited Edition</h2>
-              <p>Дизайн</p>
+              <h2 class="project-title">Видання Limited Edition</h2>
+              <p class="filter">Дизайн</p>
             </a>
           </li>
           <li>
             <a href="">
               <img src="./images/project-8.jpg" alt="Зображення проєкту маркетингу" width="370" />
-              <h2 class="section-title">Проєкт LAB</h2>
-              <p>Маркетинг</p>
+              <h2 class="project-title">Проєкт LAB</h2>
+              <p class="filter">Маркетинг</p>
             </a>
           </li>
           <li>
             <a href="">
               <img src="./images/project-9.jpg" alt="Зображення проєкту додатка" width="370" />
-              <h2 class="section-title">Growing Business</h2>
-              <p>Додаток</p>
+              <h2 class="project-title">Growing Business</h2>
+              <p class="filter">Додаток</p>
             </a>
           </li>
         </ul>
@@ -117,7 +124,7 @@
     <footer>
       <!--Підвал-->
       <div class="address-section">
-        <a href="/" class="logo-footer"> <span class="logo-word">Web</span> Studio</a>
+        <a href="/" class="logo-footer"> <span class="logo-word">Web</span>Studio</a>
         <address>
           <ul class="address-title">
             <li>
