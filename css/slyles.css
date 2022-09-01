@@ -32,9 +32,7 @@ ul {
 }
 
 .logo:hover,
-.logo:focus,
-.logo-word:hover,
-.logo-word:focus {
+.logo:focus {
   color: var(--accent-color);
 }
 
@@ -55,14 +53,19 @@ ul {
 
 /* Контакти */
 
-.contacts .link {
+.phone-link {
   color: var(--primary-text-color);
 }
-
-.conacts .link:hover,
-.contacts .link:focus {
+.mail-link {
   color: var(--accent-color);
 }
+
+.phone-link:hover,
+.mail-link:focus {
+  color: var(--accent-color);
+}
+
+/* Section */
 
 .section-title {
   color: var(--title-text-color);
@@ -109,3 +112,22 @@ ul {
   background-color: var(--accent-color);
 }
 /* Footer */
+
+.logo-footer {
+  color: var(--primary-white-color);
+}
+
+.logo-footer:hover,
+.logo-footer:focus {
+  color: var(--accent-color);
+}
+
+.address-section {
+  background-color: var(--primary-bg-color);
+}
+
+.street,
+.mail,
+.phone {
+  color: var(--primary-white-color);
+}
