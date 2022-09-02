@@ -13,6 +13,7 @@
   --primary-bg-color: #2f303a;
   --section-bg-color: #f5f4fa;
   --section-bg2-color: #eeeeee;
+  --footer-title-color: #ffffff99;
 }
 
 body {
@@ -33,7 +34,9 @@ ul {
   font-weight: 700;
   font-size: 26px;
   line-height: 1.2;
+  text-decoration: none;
 }
+
 .logo-word {
   color: var(--accent-color);
 }
@@ -49,6 +52,7 @@ ul {
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
+  text-decoration: none;
 }
 
 .site-nav .link:hover,
@@ -60,7 +64,7 @@ ul {
   color: var(--accent-color);
 }
 
-/* Контакти */
+/* Contacts */
 
 .contacts {
   font-weight: 500;
@@ -70,24 +74,16 @@ ul {
 
 .phone-link {
   color: var(--primary-text-color);
+  text-decoration: none;
 }
 .mail-link {
   color: var(--accent-color);
+  text-decoration: none;
 }
 
 .phone-link:hover,
 .mail-link:focus {
   color: var(--accent-color);
-}
-
-/* Section */
-
-.section-title {
-  color: var(--title-text-color);
-  font-weight: 700;
-  font-size: 36px;
-  line-height: 1, 5;
-  text-align: center;
 }
 
 /* Hero */
@@ -116,6 +112,16 @@ ul {
   line-height: 1.7;
 }
 
+/* Work */
+
+.work-list .work-title {
+  color: var(--title-text-color);
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.5;
+  text-align: center;
+}
+
 /* Team */
 
 .team-list .title {
@@ -131,36 +137,11 @@ ul {
   line-height: 1.2;
 }
 
-/* Button */
-.button {
-  color: var(--title-text-color);
-  background-color: var(--section-bg-color);
-  font-family: inherit;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.6;
-}
-
-.button.primary {
-  color: var(--primary-white-color);
-  background-color: var(--accent-color);
-  font-weight: 700;
-  font-size: 16px;
-  line-height: 1.9;
-}
-
-.button.primary.current {
-  color: var(--primary-white-color);
-  background-color: var(--accent-color);
-}
-
-.project-list .button.secondary:hover,
-.project-list .button.secondary:focus {
-  color: var(--primary-white-color);
-  background-color: var(--accent-color);
-}
-
 /* Project */
+
+.project-link .project {
+  background-color: var(--section-bg2-color);
+}
 
 .project-link .project-title {
   color: var(--title-text-color);
@@ -176,29 +157,82 @@ ul {
   line-height: 1.9;
 }
 
+.project .link {
+  text-decoration: none;
+}
+
+.project-list .button.secondary:hover,
+.project-list .button.secondary:focus {
+  color: var(--primary-white-color);
+  background-color: var(--accent-color);
+}
+
+/* Button */
+.button {
+  color: var(--title-text-color);
+  background-color: var(--section-bg-color);
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.6;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.button.primary {
+  color: var(--primary-white-color);
+  background-color: var(--accent-color);
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.9;
+}
+
+.button.primary.current {
+  color: var(--primary-white-color);
+  background-color: var(--accent-color);
+}
+
 /* Footer */
+
+.address-section {
+  background-color: var(--primary-bg-color);
+}
 
 .logo-footer {
   color: var(--primary-white-color);
   font-weight: 700;
   font-size: 26px;
   line-height: 1.2;
+  text-decoration: none;
 }
 
 .logo-footer:hover {
   color: var(--accent-color);
 }
 
-.address-section {
-  background-color: var(--primary-bg-color);
+.street {
+  color: var(--primary-white-color);
 }
 
+.mail,
+.phone {
+  color: var(--footer-title-color);
+}
 .street,
 .mail,
 .phone {
-  color: var(--primary-white-color);
   font-weight: 400;
   font-size: 14px;
   line-height: 1.7;
   font-style: normal;
+  text-decoration: none;
+}
+
+.street:hover,
+.mail:hover,
+.phone:hover,
+.street:focus,
+.mail:focus,
+.phone:focus {
+  color: var(--accent-color);
 }
