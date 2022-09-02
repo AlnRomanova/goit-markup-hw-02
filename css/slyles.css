@@ -72,12 +72,9 @@ ul {
   line-height: 1.14;
 }
 
-.phone-link {
-  color: var(--primary-text-color);
-  text-decoration: none;
-}
+.phone-link,
 .mail-link {
-  color: var(--accent-color);
+  color: var(--primary-text-color);
   text-decoration: none;
 }
 
@@ -95,6 +92,7 @@ ul {
   font-size: 44px;
   line-height: 1.4;
   text-align: center;
+  text-transform: uppercase;
 }
 
 /* Feature */
@@ -200,6 +198,7 @@ ul {
 
 .logo-footer {
   color: var(--primary-white-color);
+  font-family: Raleway, sans-serif;
   font-weight: 700;
   font-size: 26px;
   line-height: 1.2;
